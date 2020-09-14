@@ -1,0 +1,15 @@
+start = root
+root = element Ozymandias {layer}
+# amo: used "root" as the root label.
+layer = element layer {agent?, pos?, line*}
+# "+" means one or more,
+# no sign means only one
+# "?" means zero or one
+# "*" means zero or more.
+line = element line {n, mixed{(layer | ellipsis)?}}
+# lines are special bc they contain mixed content
+n = attribute n {xsd:integer}
+# DATATYPES specify what data format you want
+agent = attribute agent {"I" | "traveller" | "sculptor" | text}
+pos = attribute pos {"start" | "end"}
+ellipsis = element ellipsis {empty}
