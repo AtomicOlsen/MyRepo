@@ -1,0 +1,29 @@
+# AMO: Attributes and elements are nested on a first-observe basis.
+# (example: while the attr. "ref" appears in both Place and PlaceName, it was first ovserved in placeName, therefor it is nested underneath placeName)
+start = xml
+xml = element xml {source, \text}
+    source = element source {title?, altTitle*, author+, pubPlace?, publisher?, date?, note*}
+        title = element title {level*, text}
+            level = attribute level {"book" | "inner" | text}
+        altTitle = element altTitle {text}
+        author = element author {text}
+        pubPlace = element pubPlace {where?, text}
+            where = attribute where {text}
+        publisher = element publisher {text}
+        date = element date {when?}
+            when = attribute when {text}
+        note = element note {text}
+        
+    \text = element \text { poem+}
+        poem = element poem {title?, lineGroup+, id?}
+            id = attribute id {text} 
+            lineGroup = element lineGroup {line+}
+                line = element line {n?, text, mixed{(place* | placeName | motif | emph)?}}
+                    n = attribute n {xsd:integer}
+                    placeName = element placeName {ref?, type?, text}
+                        ref = attribute ref {text}
+                        type = attribute type {text}
+                    place = element place {text, ref?, type?}
+                    motif = element motif {text}
+                    emph = element emph {text}
+                    
