@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Bones_SkeletalLove_RNC.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist who = "Bones"/> <songTitle title = "Skeletal Love"/></metadata>
+    
+<marker mTag = "Verse 1">Verse 1</marker>
+<verse1>
+    I was in the whip alone, on my mobile phone<lb n ="1"/>
+    Tryna figure out the play while the night was young<lb n ="2"/>
+    Reclinin' on butter pecan leather seats<lb n ="3"/>
+    Same color as my drink, Buffalo Trace<lb n ="4"/>
+    Got a message from my brother on call<lb n ="5"/>
+    Told me, <quote>Slide, get high, figure out what the move is</quote><lb n ="6"/>
+    Said, I'll be right there, my chain don't fight fair<lb n ="7"/>
+    The diamonds always bitin', jewelry game is a nightmare<lb n ="8"/>
+    Pulled up, hopped out, hit the button<lb n ="9"/>
+    They buzzed me up, then I noticed somethin'<lb n ="10"/>
+    The glim west building had a bloody red glow<lb n ="11"/>
+    All I see is silhouettes movin' 'round in the window<lb n ="12"/>
+    Suddenly my interest shifted<lb n ="13"/>
+    All of a sudden, I'm dyin' to know the business<lb n ="14"/>
+    Quickly hit a 180, took the stairs to the sidewalk<lb n ="15"/>
+    Detective Bones, on the case like it was my job<lb n ="16"/>
+    I knocked twice on the door and the music stopped<lb n ="17"/>
+    The red lights turned off, maybe they thought it was cops<lb n ="18"/>
+    The doorknob twist, to my surprise<lb n ="19"/>
+    It was a female skeleton with gemstone eyes<lb n ="20"/>
+</verse1>
+
+<marker mTag = "Refrain" >Refrain</marker>
+<refrain>
+    In the whip alone on my mobile phone <repeat>Skeletal love</repeat><lb n ="21"/>
+    I was in the whip alone on my mobile phone <repeat>Skeletal love</repeat><lb n ="22"/>
+</refrain>
+
+<marker mTag = "Verse 2" >Verse 2</marker>
+<verse2>
+    Excuse me ma'am, I don't mean to bother<lb n ="23"/>
+    But somethin' magnetic brought me to your door<lb n ="24"/>
+    And I know we haven't met before and that's facts<lb n ="25"/>
+    But lookin' at you now, somehow, I feel we have<lb n ="26"/>
+    She waved me in, led me into the living room<lb n ="27"/>
+    Ironic 'cause she's dead and me, I gave up living too<lb n ="28"/>
+    I sit down while she walks to the kitchen<lb n ="29"/>
+    Brings back a cup of blood with no ice in it<lb n ="30"/>
+    I know it's strange to say the least but I drink it<lb n ="31"/>
+    I don't even hesitate, let alone start thinkin'<lb n ="32"/>
+    Her eyes start blinkin' and her mouth open up<lb n ="33"/>
+    She emits a beepin' sound, then I woke up<lb n ="34"/>
+</verse2>
+
+<marker mTag = "Outro">Outro</marker>
+<outro>
+    Skeletal love
+</outro>
+</song>
