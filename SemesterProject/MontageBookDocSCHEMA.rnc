@@ -1,0 +1,8 @@
+start = doc
+doc = element doc {page+}
+#amo:doc is root elem
+page = element page {pNum?, mixed{(line)+}}
+pNum = attribute pNum {xsd:integer}
+#VVV NOT DONE AIDAN DONT FRGT TO FINISH THIS LINE VVV 
+line = element line {mixed{(num)?}}
+num = attribute num {xsd:integer}
